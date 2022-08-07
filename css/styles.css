@@ -1,5 +1,42 @@
+body {
+    background-color: #F5F5F5;
+    color: #757575;
+}
+/* *Сбросил точки в списках */
+ul {
+    list-style: none;
+}
+
+/* *Логотип */
+.logo {
+    color: #000000;
+}
+.logo> span {
+    color: #2196F3;
+}
+
+/* *Ссылки */
+.site-nav a {
+    color: #212121;
+}
+.site-nav a:hover,.site-nav a:focus {
+    color: #2196F3;
+}
+.auth-nav a {
+    color: #212121;
+}
+.auth-nav a:hover,.auth-nav a:focus {
+    color: #2196F3;
+}
+
+/* *Заголовки */
+.section-title {
+    color: #212121;
+}
+
 /* цвет основного текста: #212121; */
 /* цвет вторичного текста: #757575; */
+/* цвет фона страницы: #F5F5F5 */
 /* лого в шапке: (studio #000000),(web #2196F3); */
 /* ссылка активная #2196F3 */
 /* лого в футере: (studio #ffffff),(web #2196F3); */

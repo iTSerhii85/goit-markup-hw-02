@@ -3,6 +3,7 @@
 --primary-text-color: #757575;
 --title-text-color: #212121;
 --accent-color: #2196F3;
+--button-background-color: #F5F4FA;
 }
 
 body {
@@ -52,8 +53,12 @@ footer {
 .site-nav a:hover,.site-nav a:focus {
     color: var(--brend-color);
 }
+.site-nav .current {
+    color: var(--accent-color);
+}
+
 .auth-nav a {
-    color: var(--title-text-color);
+    color: var(--primary-text-color);
 }
 .auth-nav a:hover,.auth-nav a:focus {
     color: var(--brend-color);
@@ -64,6 +69,16 @@ footer {
 
 /* *Заголовки */
 .section-title {
+    color: var(--title-text-color);
+}
+
+/* *Кнопки */
+.hero-button {
+    background-color: var(--accent-color);
+    color: #ffffff;
+}
+.button {
+    background-color: var(--button-background-color);
     color: var(--title-text-color);
 }
 

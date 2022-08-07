@@ -7,6 +7,12 @@ ul {
     list-style: none;
 }
 
+/* *Блок герой */
+.hero {
+    background-color: #2F303A;
+}
+.hero-title {color: #ffffff;}
+
 /* *Логотип */
 .logo {
     color: #000000;
@@ -14,6 +20,25 @@ ul {
 .logo> span {
     color: #2196F3;
 }
+
+/* *Подвал */
+footer {
+    background-color: #2F303A;
+}
+.footer-mail,
+.footer-tel {
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer-address {
+    color: #ffffff;
+}
+.footer-logo {
+    color: #ffffff;
+}
+.footer-logo> span {
+    color: #2196F3;
+}
+
 
 /* *Ссылки */
 .site-nav a {

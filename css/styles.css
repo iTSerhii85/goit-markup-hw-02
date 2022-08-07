@@ -1,6 +1,13 @@
+:root {
+--brend-color: #2196F3;
+--primary-text-color: #757575;
+--title-text-color: #212121;
+--accent-color: #2196F3;
+}
+
 body {
     background-color: #F5F5F5;
-    color: #757575;
+    color: var(--primary-text-color);
 }
 /* *Сбросил точки в списках */
 ul {
@@ -18,7 +25,7 @@ ul {
     color: #000000;
 }
 .logo> span {
-    color: #2196F3;
+    color: var(--brend-color);
 }
 
 /* *Подвал */
@@ -29,38 +36,39 @@ footer {
 .footer-tel {
     color: rgba(255, 255, 255, 0.6);
 }
-.footer-address {
-    color: #ffffff;
-}
+.footer-address,
 .footer-logo {
     color: #ffffff;
 }
 .footer-logo> span {
-    color: #2196F3;
+    color: var(--brend-color)
 }
 
 
 /* *Ссылки */
 .site-nav a {
-    color: #212121;
+    color: var(--title-text-color);
 }
 .site-nav a:hover,.site-nav a:focus {
-    color: #2196F3;
+    color: var(--brend-color);
 }
 .auth-nav a {
-    color: #212121;
+    color: var(--title-text-color);
 }
 .auth-nav a:hover,.auth-nav a:focus {
-    color: #2196F3;
+    color: var(--brend-color);
+}
+.footer-list a:hover, .footer-list a:focus {
+    color: var(--brend-color);
 }
 
 /* *Заголовки */
 .section-title {
-    color: #212121;
+    color: var(--title-text-color);
 }
 
-/* цвет основного текста: #212121; */
-/* цвет вторичного текста: #757575; */
+/* цвет вторичного текста: #212121; */
+/* цвет основного текста: #757575; */
 /* цвет фона страницы: #F5F5F5 */
 /* лого в шапке: (studio #000000),(web #2196F3); */
 /* ссылка активная #2196F3 */

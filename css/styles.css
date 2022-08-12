@@ -37,6 +37,9 @@ body {
 /* *Блок герой */
 .hero {
   background-color: var(--background-color-hero);
+
+  width: 1600px;
+  height: 600px;
 }
 .hero-title {
   color: #ffffff;
@@ -47,6 +50,9 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+
+  width: 696px;
+  height: 120px;
 }
 .hero-button {
   background-color: var(--accent-color);
@@ -60,6 +66,9 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+
+  width: 216px;
+  height: 50px;
 }
 
 /* *Заголовки */

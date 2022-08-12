@@ -86,7 +86,7 @@ body {
 }
 .hero-button:hover,
 .hero-button:focus {
-  background: #2196f3;
+  background: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }

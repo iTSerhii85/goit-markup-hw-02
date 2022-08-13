@@ -28,7 +28,7 @@ body {
   list-style: none;
 }
 
-/* * Сбросил подчеркивание для ссылок */
+/* * Сбросил подчеркивание и тип шрифта для ссылок */
 .link {
   text-decoration: none;
   font-style: normal;
@@ -52,8 +52,8 @@ body {
 .hero {
   background-color: var(--background-color-hero);
 
-  width: 1600px;
-  height: 600px;
+  /* width: 1600px; */
+  /* height: 600px; */
 }
 .hero-title {
   color: #ffffff;
@@ -65,8 +65,10 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  width: 696px;
-  height: 120px;
+  /* width: 696px;
+  height: 120px; */
+
+
 }
 .hero-button {
   background-color: var(--accent-color);
@@ -81,8 +83,8 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
 
-  width: 216px;
-  height: 50px;
+  /* width: 216px;
+  height: 50px; */
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -135,8 +137,8 @@ body {
 .team-section li {
   background-color: #ffffff;
 
-  width: 270px;
-  height: 368px;
+  /* width: 270px;
+  height: 368px; */
 }
 
 /* *Логотип */
@@ -247,6 +249,6 @@ body {
   letter-spacing: 0.03em;
 }
 .gallery li {
-  width: 370px;
-  height: 404px;
+  /* width: 370px;
+  height: 404px; */
 }
